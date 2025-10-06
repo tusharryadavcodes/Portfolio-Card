@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Portfolio Card</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #00adb5;
+    }
+
+    h2 {
+      margin: 15px 0 5px;
+    }
+
+    p {
+      margin: 5px 0 15px;
+      font-size: 14px;
+      color: #b5eaea;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background: #00adb5;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: #00fff5;
+      color: #222;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="https://img.freepik.com/premium-photo/cybersecurity-expert-icon-data-protection-specialist-illustration_762678-122325.jpg?semt=ais_hybrid&w=740&q=80" />
+    <h2>Tushar Rakesh Yadav</h2>
+    <p>AI ML Studenthttps://github.com/tusharryadavcodes</p>
+
+    <div class="links">
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/tusharryadavcodes" target="_blank">GitHub</a>
+      <a href="https://yourportfolio.com" target="_blank">Portfolio</a>
+    </div>
+  </div>
+</body>
+</html>
